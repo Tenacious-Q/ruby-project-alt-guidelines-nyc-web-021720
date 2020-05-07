@@ -1,19 +1,21 @@
 require 'pry' 
 class CommandLineInterface  
 
+def blank_line 
+    puts "" 
+end 
+
 def greet 
     puts "Welcome to the Item Store!"
 end 
 
 
-#greet 
-
 def menu 
     puts "Please select one: "
     puts "(C)reate new customer" 
-    puts "(R)ead all customers" 
+    puts "(R)ead all customer names" 
     puts "(U)pdate a customers info"
-    puts "(D)elete customer"
+    puts "(D)elete last customer"
     input = gets.chomp 
     
     add_customer if input.upcase == "C" 
