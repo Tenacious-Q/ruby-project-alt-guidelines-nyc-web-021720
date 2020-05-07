@@ -9,6 +9,10 @@ def greet
     puts "Welcome to the Item Store!"
 end 
 
+def description 
+    "The Item Store is a place where a Customer can go to purchase an Item through a Sale. As an owner, the user can modify information in the customers table. "
+end 
+
 
 def menu 
     puts "Please select one: "

@@ -5,6 +5,7 @@ cli = CommandLineInterface.new
 
 cli.blank_line 
 cli.greet 
+puts cli.description  
 cli.blank_line 
 cli.menu 
 
